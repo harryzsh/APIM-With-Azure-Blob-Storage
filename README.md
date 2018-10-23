@@ -8,7 +8,7 @@ I will use the following example to illustrate how to get file from Azure Blob S
 
 1. Let's create a private container of a blob within a storage account
 
-![alt text](/Images/privateBlobContainer.png)
+![alt text](/Images/PrivateBlobContainer.png "")
 
 
 2. Create an API App (kind of app service) and a method to get URL+SAS token (URL + SAS Detail can be found in here https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-shared-access-signature-part-2)
@@ -46,7 +46,7 @@ I will use the following example to illustrate how to get file from Azure Blob S
 
 3. Import the API App into APIM
 
-    ![](images\apim.png?raw=true)
+    ![alt text](/Images/apim.PNG)
 
 4. Then add an outbound policy for the GetBlobUri method
 ```sh
@@ -83,9 +83,9 @@ I will use the following example to illustrate how to get file from Azure Blob S
 
 5. In Test Panel, We can start to test this API
 
-   ![alt text](/Images/apim_parameters.png)
+   ![alt text](/Images/apim_parameters.PNG)
 
 
 6. We now should get the content out from the Text.txt file stored in the private blob storage container
 
-   ![alt text](/Images/APIMResult.png)
+   ![alt text](/Images/apim.PNG)
