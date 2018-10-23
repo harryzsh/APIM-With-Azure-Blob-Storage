@@ -3,13 +3,12 @@
 
 I will use the following example to illustrate how to get file from Azure Blob Storage through APIM
 
-![](images\api-management-download-a-file.png?raw=true)
 
-
+![alt text](/Images/api-management-download-a-file.png)
 
 1. Let's create a private container of a blob within a storage account
 
-![](images\privateBlobContainer.png?raw=true)
+![alt text](/Images/privateBlobContainer.png)
 
 
 2. Create an API App (kind of app service) and a method to get URL+SAS token (URL + SAS Detail can be found in here https://docs.microsoft.com/en-us/azure/storage/blobs/storage-dotnet-shared-access-signature-part-2)
@@ -84,9 +83,9 @@ I will use the following example to illustrate how to get file from Azure Blob S
 
 5. In Test Panel, We can start to test this API
 
-   ![](images\apim_parameters.png?raw=true)
+   ![alt text](/Images/apim_parameters.png)
 
 
 6. We now should get the content out from the Text.txt file stored in the private blob storage container
 
-   ![](images\APIMResult.PNG?raw=true)
+   ![alt text](/Images/APIMResult.png)
